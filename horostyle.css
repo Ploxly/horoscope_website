@@ -1,0 +1,47 @@
+body{
+    background-color: #FFFAF0
+}
+h1.header{
+    font-family: fantasy;
+    font-size: 500%;
+    font-variant: small-caps;
+    text-align: center;
+}
+
+p.welcome{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 120%;
+    font-variant: normal;
+    text-align: center;
+    position: relative;
+    line-height: -100%;
+    
+}
+
+div.horoscope{
+    position: absolute;
+    right:58%;
+}
+div.gender{
+    position: absolute;
+    right:35%;
+}
+select.horoscope{
+    width: 100px;
+    margin: 5px;
+    height: 100%;
+
+}
+select.horoscope:focus{
+    min-width:100px;
+    width: auto;
+}
+select.gender{
+    width: 100px;
+    margin: 5px;
+    height: 100%;
+}
+select.gender:focus{
+    min-width:100px;
+    width: auto;
+}
