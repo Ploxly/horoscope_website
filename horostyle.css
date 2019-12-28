@@ -18,21 +18,21 @@ p.welcome{
     
 }
 
-div.horoscope{
+div.zodiac_div{
     position: absolute;
     right:58%;
 }
-div.gender{
+div.gender_div{
     position: absolute;
     right:35%;
 }
-select.horoscope{
+select.zodiac{
     width: 100px;
     margin: 5px;
     height: 100%;
 
 }
-select.horoscope:focus{
+select.zodiac:focus{
     min-width:100px;
     width: auto;
 }
