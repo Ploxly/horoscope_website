@@ -3,7 +3,7 @@
     <head>
         <title>Simply Horoscopes</title>
         <link rel="stylesheet" type="text/css" href="horostyle.css" />
-        <script src="horoscope.js"></script>
+        <script src="./horoscope.js"></script>
     </head>
 
     <body>
@@ -13,13 +13,13 @@
             <img class="icon mainlogo" 
                  src="https://i.imgur.com/m1Sth3g.png" 
                  title="source: imgur.com" 
-                 alt="horoscopes images"
+                 alt="Zodiac signs"
                  width=100% /> 
         </h1>
-        <p class="welcome"> Welcome! Please choose your horoscope and gender to begin...</p>
-        <div class="horoscope">
-            <select id="horoscope_select" class="horoscope" value="horoscope">
-                <option value="Direction_Horoscope">Horoscope</option>
+        <p id ="welcome_message" class="welcome"> Welcome! Please choose your zodiac sign and gender to begin...</p>
+        <div class="zodiac_div">
+            <select id="zodiac_select" class="zodiac" value="zodiac_choice">
+                <option value="Direction_Zodiac">Zodiac Sign</option>
                 <option value="Aries">Aries</option>
                 <option value="Taurus">Taurus</option>
                 <option value="Gemini">Gemini</option>
@@ -35,8 +35,8 @@
             </select>
         </div>
 
-        <div class="gender">
-            <select class="gender" value="gender">
+        <div class="gender_div">
+            <select id="gender_select" class="gender" value="gender_choice">
                 <option value="Direction_Gender">Gender</option>
                 <option value="Male">Male</option>
                 <option value="Female">Female</option>
